@@ -41,13 +41,13 @@ pcall(function()
 		Sound.SoundId = "rbxassetid://500472891";
 		Sound.PlayOnRemove = true;
 		Sound:Destroy();
-		game.StarterGui:SetCore("SendNotification", {Title="AlienX",Text=("欢迎尊贵的AlienX用户: " .. username),Icon="rbxassetid://96305381714766"});
+		game.StarterGui:SetCore("SendNotification", {Title="迪迪俱乐部",Text=("欢迎尊贵的迪脚本用户: " .. username),Icon="rbxassetid://96305381714766"});
 		wait(1.5);
 		local Sound = Instance.new("Sound", workspace);
 		Sound.SoundId = "rbxassetid://500472891";
 		Sound.PlayOnRemove = true;
 		Sound:Destroy();
-		game.StarterGui:SetCore("SendNotification", {Title="AlienX",Text="正在启动脚本中..",Icon="rbxassetid://96305381714766"});
+		game.StarterGui:SetCore("SendNotification", {Title="迪脚本",Text="正在启动脚本中..",Icon="rbxassetid://96305381714766"});
 		wait(1.5);
 		if ((game.GameId == 8888615802) or (game.GameId == 13622981808)) then
 			loadstring(game:HttpGet(""))();
@@ -56,13 +56,13 @@ pcall(function()
 			Sound.SoundId = "rbxassetid://87437544236708";
 			Sound.PlayOnRemove = true;
 			Sound:Destroy();
-			game.StarterGui:SetCore("SendNotification", {Title="AlienX",Text="正在打开俄亥俄州脚本",Icon="rbxassetid://96305381714766"});
+			game.StarterGui:SetCore("SendNotification", {Title="迪脚本",Text="正在打开俄亥俄州脚本",Icon="rbxassetid://96305381714766"});
 			local Library = loadstring(GetAsset("https://api.github.com/repos/AlienX-Script/AlienX/contents/AlienX-Script/A-Ohio?ref=main"))();
 			local Sound = Instance.new("Sound", workspace);
 			Sound.SoundId = "rbxassetid://87437544236708";
 			Sound.PlayOnRemove = true;
 			Sound:Destroy();
-			game.StarterGui:SetCore("SendNotification", {Title="AlienX",Text="俄亥俄州启动成功",Icon="rbxassetid://96305381714766"});
+			game.StarterGui:SetCore("SendNotification", {Title="迪脚本",Text="俄亥俄州启动成功",Icon="rbxassetid://96305381714766"});
 		elseif (game.GameId == 4777817887) then
 			local Sound = Instance.new("Sound", workspace);
 			Sound.SoundId = "rbxassetid://87437544236708";
