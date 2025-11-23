@@ -153,7 +153,7 @@ local function addRainbowTitleToLocalPlayer(player, titleText)
     addTitleToCharacter(character)
     player.CharacterAdded:Connect(addTitleToCharacter)
 end
-addRainbowTitleToLocalPlayer(LP, "AlienX VIP")
+addRainbowTitleToLocalPlayer(LP, "迪迪俱乐部 VIP")
 
 local function spin(enabled)
     local root = LP.Character and (LP.Character:FindFirstChild("HumanoidRootPart") or LP.Character:FindFirstChild("UpperTorso"))
